@@ -25,7 +25,7 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
-CHCP 1252 1>NUL
+chcp 65001>NUL
 TITLE Admin Tools v0.3e
 REM 	SI TU CUENTA DE ADMINISTRADOR TIENE OTRO NOMBRE, CÁMBIALO AQUÍ EN: "set ADMIN=-->Administrador<--"
 	set ADMIN=Administrador & REM <<
